@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.xxx {
+  @apply font-bold underline text-2xl;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
+}
+
+input {
+  background-color: darkgrey;
+  border: 1px solid #999;
+}
+
+.btn {
+  border-radius: 0.25rem;
+  background-color: greenyellow;
+  padding: 0.2rem 0.6rem;
+}
+
+.btn-danger {
+  background-color: hotpink;
+}
+.btn:focus {
+  background-color: cornflowerblue
+}
+
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-end;
+  align-items: center;
+}
+
+.header {
+  background-color: darkgoldenrod;
+  font-weight: 300;
+}
