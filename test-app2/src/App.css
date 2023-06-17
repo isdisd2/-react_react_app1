@@ -49,8 +49,11 @@
 .form-row {
   display: flex;
   flex-direction: column;
-
   box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
+}
+
+.flex-item {
+  padding: 5px;
 }
 
 input {
@@ -62,13 +65,17 @@ input {
   border-radius: 0.25rem;
   background-color: greenyellow;
   padding: 0.2rem 0.6rem;
+  border: 2px solid goldenrod;
 }
 
 .btn-danger {
   background-color: hotpink;
+  border: 2px solid lightpink;
 }
+
 .btn:focus {
-  background-color: cornflowerblue
+  background-color: cornflowerblue;
+  border: 2px solid deepskyblue;
 }
 
 
@@ -83,4 +90,11 @@ input {
 .header {
   background-color: darkgoldenrod;
   font-weight: 300;
+}
+
+.box {
+  border: 1px solid #999999;
+  background-color: darkseagreen;
+  padding: 0.8em;
+  margin: 0.3em;
 }

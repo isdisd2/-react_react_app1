@@ -15,27 +15,34 @@ import UseRef1 from './useRef'
 import UseRefModalMain from './useRefModaMain'
 import UseImperativeHandle1App from './UseImperativeHandle1-app'
 import HandleClick from './handleClick'
+import PatternRenderProps from "./pattern-render-props"
+import PatternProvider1 from "./pattern-provider-1";
+import TaskApp from "./reducer-app";
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-	<React.StrictMode>
-		<Todo />
-		<br />
-		<Tik />
-		<div className="board-row" />
-		<br />
-		<Counters />
-		<div className="board-row" />
-		<br />
-		<App />
-		<HookMistake1 />
-		<HookMistake2 />
-		<HookMistake3 />
-		<HookMistake4 />
-		<UseRef1 />
-		<UseRefModalMain />
-		<UseImperativeHandle1App />
-		{/* <Storage /> */}
-		<HandleClick />
-	</React.StrictMode>
+  <React.StrictMode>
+    <Todo/>
+    <br/>
+    <Tik/>
+    <div className="board-row"/>
+    <br/>
+    <Counters/>
+    <div className="board-row"/>
+    <br/>
+    <App/>
+    <HookMistake1/>
+    <HookMistake2/>
+    <HookMistake3/>
+    <HookMistake4/>
+    <UseRef1/>
+    <UseRefModalMain/>
+    <UseImperativeHandle1App/>
+    {/* <Storage /> */}
+    <HandleClick/>
+    <br/>
+    <PatternRenderProps/>
+    <PatternProvider1/>
+    <TaskApp/>
+  </React.StrictMode>
 )
